@@ -46,7 +46,8 @@ app.get('/getSaveData', async (req, res) => {
             totalPost: totalPost,
             currentPage: page,
             totalPages: totalPages,
-            limit: limit
+            limit: limit,
+            skip: skip
         }
     })
 })
